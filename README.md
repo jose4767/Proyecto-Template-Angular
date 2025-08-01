@@ -57,3 +57,9 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Problemas
+
+Problema 1 el primer problema fue adaptar el template al angular 20 ya que no existia la carpeta de assets teniendo que direccionar el archivo del JSON de angular con la direccion de assets que creamos en src con lo que tenia el template;
+
+Problema 2 Adaptar Header y Footer dentro de App.ts de angular se creo una carpeta para ambos componentes el cual se llama shared y se creo el componente con la carpeta bajo el siguiente comando:  ng g c shared/header dentro del componente se altero el html como el ts y su redireccionamiento a la app central.
