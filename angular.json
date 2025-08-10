@@ -16,13 +16,14 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/aurora-pack.min.css",
+              "src/assets/css/aurora-theme-base.min.css",
+              "src/assets/css/urku.css"
             ]
           },
           "configurations": {
@@ -69,17 +70,21 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/aurora-pack.min.css",
+              "src/assets/css/aurora-theme-base.min.css",
+              "src/assets/css/urku.css"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9801ef31-079a-40b5-9620-a3c05244d76a"
   }
 }
